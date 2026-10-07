@@ -187,4 +187,584 @@
             </div>
 
             <!-- TARJETA 5: DÍA DE ALBERCA & ESCAPADA DE FIN DE SEMANA -->
-            <div class="bg-white rounded-3xl border border-warm-200 p-5 shadow-lg flex flex-col
+            <div class="bg-white rounded-3xl border border-warm-200 p-5 shadow-lg flex flex-col justify-between space-y-4 hover:border-warm-600 transition">
+                <div class="space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="bg-warm-200 text-warm-900 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">Publicación Orgánica / Pauta</span>
+                        <span class="text-xs text-warm-600 font-bold">Pase de Día / Estancia</span>
+                    </div>
+                    <h3 class="font-serif font-bold text-lg text-warm-900 leading-snug">Alberca y Descanso en la Ciudad</h3>
+                    <p class="text-xs text-warm-800 leading-relaxed">
+                        Muestra la tranquilidad de la alberca para relajarse en familia o en pareja tras un día caluroso en Pochutla.
+                    </p>
+                </div>
+                <button onclick="openModal('modal-alberca')" class="w-full bg-warm-900 hover:bg-warm-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-expand"></i>
+                    <span>Ver Guion y Copys</span>
+                </button>
+            </div>
+
+            <!-- TARJETA 6: BASE PARA EXPLORAR LAS PLAYAS -->
+            <div class="bg-white rounded-3xl border border-warm-200 p-5 shadow-lg flex flex-col justify-between space-y-4 hover:border-warm-600 transition">
+                <div class="space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="bg-warm-100 text-warm-900 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">Pauta Pagada #4</span>
+                        <span class="text-xs text-warm-600 font-bold">Turismo de Playa</span>
+                    </div>
+                    <h3 class="font-serif font-bold text-lg text-warm-900 leading-snug">Tu Base Estratégica hacia las Playas</h3>
+                    <p class="text-xs text-warm-800 leading-relaxed">
+                        Pochutla como punto central para hospedarte a precio justo y moverte a Mazunte, Zipolite y Huatulco.
+                    </p>
+                </div>
+                <button onclick="openModal('modal-playas')" class="w-full bg-warm-900 hover:bg-warm-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-expand"></i>
+                    <span>Ver Guion y Copys</span>
+                </button>
+            </div>
+
+            <!-- TARJETA 7: RENTA MENSUAL PARA ESTANCIAS LARGAS -->
+            <div class="bg-white rounded-3xl border border-warm-200 p-5 shadow-lg flex flex-col justify-between space-y-4 hover:border-warm-600 transition">
+                <div class="space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="bg-warm-200 text-warm-900 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">Orgánico / Pauta Local</span>
+                        <span class="text-xs text-warm-600 font-bold">Desde $3,800 MXN/mes</span>
+                    </div>
+                    <h3 class="font-serif font-bold text-lg text-warm-900 leading-snug">Planes de Renta Mensual (Larga Estancia)</h3>
+                    <p class="text-xs text-warm-800 leading-relaxed">
+                        Enfocado en profesionistas, trabajadores de temporada y residentes temporales en San Pedro Pochutla.
+                    </p>
+                </div>
+                <button onclick="openModal('modal-renta-mensual')" class="w-full bg-warm-900 hover:bg-warm-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-expand"></i>
+                    <span>Ver Guion y Copys</span>
+                </button>
+            </div>
+
+            <!-- TARJETA 8: ATENCIÓN Y RECEPCIÓN 24 HORAS -->
+            <div class="bg-white rounded-3xl border border-warm-200 p-5 shadow-lg flex flex-col justify-between space-y-4 hover:border-warm-600 transition">
+                <div class="space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="bg-warm-200 text-warm-900 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">Publicación Orgánica</span>
+                        <span class="text-xs text-warm-600 font-bold">Llegadas Nocturnas</span>
+                    </div>
+                    <h3 class="font-serif font-bold text-lg text-warm-900 leading-snug">Llegadas Nocturnas & Recepción 24/7</h3>
+                    <p class="text-xs text-warm-800 leading-relaxed">
+                        Tranquilidad para los viajeros que llegan de noche o de madrugada en autobús o carretera.
+                    </p>
+                </div>
+                <button onclick="openModal('modal-recepcion')" class="w-full bg-warm-900 hover:bg-warm-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-expand"></i>
+                    <span>Ver Guion y Copys</span>
+                </button>
+            </div>
+
+            <!-- TARJETA 9: RECOMENDACIÓN GASTRONÓMICA LOCAL -->
+            <div class="bg-white rounded-3xl border border-warm-200 p-5 shadow-lg flex flex-col justify-between space-y-4 hover:border-warm-600 transition">
+                <div class="space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="bg-warm-200 text-warm-900 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">Publicación Orgánica</span>
+                        <span class="text-xs text-warm-600 font-bold">Sabor Oaxaqueño</span>
+                    </div>
+                    <h3 class="font-serif font-bold text-lg text-warm-900 leading-snug">Gastronomía y Sabores de Pochutla</h3>
+                    <p class="text-xs text-warm-800 leading-relaxed">
+                        Recomendaciones locales de dónde comer cerca del hotel para disfrutar de la auténtica comida costeña.
+                    </p>
+                </div>
+                <button onclick="openModal('modal-gastronomia')" class="w-full bg-warm-900 hover:bg-warm-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-expand"></i>
+                    <span>Ver Guion y Copys</span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- OVERLAYS / MODALES DE CADA POST -->
+
+    <!-- MODAL 1: CO-WORKING -->
+    <div id="modal-coworking" class="fixed inset-0 bg-warm-900/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl border border-warm-200 max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-6 shadow-2xl relative">
+            <button onclick="closeModal('modal-coworking')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-warm-100 text-warm-900 flex items-center justify-center hover:bg-warm-200 font-bold">✕</button>
+            
+            <div class="space-y-1">
+                <span class="text-xs font-bold text-warm-600 uppercase">Video Publicitado #1</span>
+                <h3 class="text-xl font-serif font-bold text-warm-900">Co-Working en Hotel Posada San José</h3>
+            </div>
+
+            <!-- CONTENEDOR 1: COPY IN-IMAGE / VIDEO -->
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Copy In-Image / Video</span>
+                    <button onclick="copyText('copy-video-1', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-video-1" class="text-xs text-warm-800 space-y-2 font-mono pt-1">
+• ¿Buscando dónde trabajar cómodo en Pochutla?
+• Wi-Fi de alta velocidad y conectores a la mano.
+• Espacio tranquilo con Aire Acondicionado.
+• Terminas de trabajar... ¡y directo a la alberca!
+• Pase Diario Co-working: $120 MXN.
+                </div>
+            </div>
+
+            <!-- CONTENEDOR 2: CAPTION + CTA + HASHTAGS -->
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Caption + CTA + Hashtags</span>
+                    <button onclick="copyText('copy-caption-1', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-caption-1" class="text-xs text-warm-800 whitespace-pre-line font-sans pt-1">
+¿Trabajas remoto y estás de paso por San Pedro Pochutla? 💻✨
+
+En Hotel Posada San José tenemos el espacio ideal para ti: Wi-Fi rápido, conectores accesibles, ambiente climatizado y la tranquilidad que necesitas para concentrarte. 
+
+Al terminar tu jornada, refréscate en nuestra alberca exterior 🏊‍♂️🌴
+
+🎟️ Pase Diario Co-Working: $120 MXN
+📲 Reserva tu espacio directo por WhatsApp: 958 142 0618
+
+#Pochutla #CoworkingOaxaca #NomadasDigitales #HotelPosadaSanJose #TrabajoRemoto #CostaDeOaxaca #Mazunte #Zipolite
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 2: TEMPORADA BAJA -->
+    <div id="modal-temporada" class="fixed inset-0 bg-warm-900/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl border border-warm-200 max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-6 shadow-2xl relative">
+            <button onclick="closeModal('modal-temporada')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-warm-100 text-warm-900 flex items-center justify-center hover:bg-warm-200 font-bold">✕</button>
+            
+            <div class="space-y-1">
+                <span class="text-xs font-bold text-warm-600 uppercase">Video Publicitado #2</span>
+                <h3 class="text-xl font-serif font-bold text-warm-900">Precios Especiales de Temporada Baja</h3>
+            </div>
+
+            <!-- CONTENEDOR 1: COPY IN-IMAGE / VIDEO -->
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Copy In-Image / Video</span>
+                    <button onclick="copyText('copy-video-2', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-video-2" class="text-xs text-warm-800 space-y-2 font-mono pt-1">
+• ¿Viajas a la Costa de Oaxaca y buscas ahorrar sin perder comodidad?
+• Temporada Baja con PRECIOS JUSTOS.
+• Habitaciones con Ventilador desde $600 MXN o con A/A desde $750 MXN.
+• Estacionamiento seguro y alberca incluidos.
+• Renta Mensual Especial: $3,800 MXN (Ventilador) / $4,800 MXN (A/A).
+                </div>
+            </div>
+
+            <!-- CONTENEDOR 2: CAPTION + CTA + HASHTAGS -->
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Caption + CTA + Hashtags</span>
+                    <button onclick="copyText('copy-caption-2', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-caption-2" class="text-xs text-warm-800 whitespace-pre-line font-sans pt-1">
+Tu noche de paso inteligente en San Pedro Pochutla 🏨✨
+
+Aprovecha nuestras tarifas especiales de temporada baja con la mejor relación costo-beneficio de la zona:
+✅ Habitaciones confortables con A/A o ventilador
+✅ Piscina al aire libre
+✅ Estacionamiento privado gratuito y seguro
+✅ Recepción las 24 horas
+
+🗓️ ¿Estancia larga? Pregunta por nuestra tarifa mensual desde $3,800 MXN/mes.
+
+📲 Consulta disponibilidad al instante vía WhatsApp: 958 142 0618
+
+#HotelPosadaSanJose #Pochutla #Oaxaca #ViajerosDePaso #HotelesEconomicos #CostaDeOaxaca #HospedajeBarato
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 3: AUTOBUSES -->
+    <div id="modal-autobuses" class="fixed inset-0 bg-warm-900/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl border border-warm-200 max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-6 shadow-2xl relative">
+            <button onclick="closeModal('modal-autobuses')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-warm-100 text-warm-900 flex items-center justify-center hover:bg-warm-200 font-bold">✕</button>
+            
+            <div class="space-y-1">
+                <span class="text-xs font-bold text-warm-600 uppercase">Video Complementario</span>
+                <h3 class="text-xl font-serif font-bold text-warm-900">Conexión y Cercanía a Centrales de Autobuses</h3>
+            </div>
+
+            <!-- CONTENEDOR 1: COPY IN-IMAGE / VIDEO -->
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Copy In-Image / Video</span>
+                    <button onclick="copyText('copy-video-3', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-video-3" class="text-xs text-warm-800 space-y-2 font-mono pt-1">
+• ¿Llegaste a la terminal de autobuses de Pochutla?
+• Llegas caminando en minutos a Hotel Posada San José.
+• Olvídate de taxis costosos.
+• Descansa, refréscate en la piscina y sigue tu viaje a las playas.
+• El punto de enlace perfecto en Pochutla.
+                </div>
+            </div>
+
+            <!-- CONTENEDOR 2: CAPTION + CTA + HASHTAGS -->
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Caption + CTA + Hashtags</span>
+                    <button onclick="copyText('copy-caption-3', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-caption-3" class="text-xs text-warm-800 whitespace-pre-line font-sans pt-1">
+¡Llegar es súper fácil! 🚶‍♂️💨
+
+Si vienes en autobús a Pochutla, Hotel Posada San José está a unos cuantos pasos de las terminales principales. No gastes en taxis extra ni des vueltas.
+
+Descansa en habitaciones cómodas, refréscate en nuestra alberca y conecta al día siguiente con Mazunte, Zipolite, Puerto Ángel o Huatulco. 🚐🌊
+
+📍 Cómo llegar en Google Maps o reserva directa al WhatsApp: 958 142 0618
+
+#Pochutla #MochilerosOaxaca #TerminalPochutla #CostaDeOaxaca #HotelPosadaSanJose #ViajerosEnRuta
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 4: ESTACIONAMIENTO -->
+    <div id="modal-estacionamiento" class="fixed inset-0 bg-warm-900/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl border border-warm-200 max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-6 shadow-2xl relative">
+            <button onclick="closeModal('modal-estacionamiento')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-warm-100 text-warm-900 flex items-center justify-center hover:bg-warm-200 font-bold">✕</button>
+            
+            <div class="space-y-1">
+                <span class="text-xs font-bold text-warm-600 uppercase">Video Publicitado #3</span>
+                <h3 class="text-xl font-serif font-bold text-warm-900">Estacionamiento Privado y Seguro 24/7</h3>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Copy In-Image / Video</span>
+                    <button onclick="copyText('copy-video-4', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-video-4" class="text-xs text-warm-800 space-y-2 font-mono pt-1">
+• ¿Viajas en auto o moto por la Costa de Oaxaca?
+• Tu vehículo seguro y resguardado en Pochutla.
+• Portón privado y monitoreo constante.
+• Descansa con total tranquilidad.
+• Habitaciones cómodas desde $600 MXN.
+                </div>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Caption + CTA + Hashtags</span>
+                    <button onclick="copyText('copy-caption-4', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-caption-4" class="text-xs text-warm-800 whitespace-pre-line font-sans pt-1">
+¡Viaja seguro y sin preocupaciones por la Costa de Oaxaca! 🚗🏍️✨
+
+En Hotel Posada San José entendemos lo importante que es la seguridad de tu vehículo. Contamos con estacionamiento privado resguardado para que descanses con absoluta calma durante tu estancia.
+
+✅ Portón cerrado y acceso controlado
+✅ Habitaciones con A/A y ventilador
+✅ Piscina al aire libre incluida
+✅ Excelente ubicación en San Pedro Pochutla
+
+📲 Asegura tu lugar con parqueo incluido escribiéndonos por WhatsApp: 958 142 0618
+
+#Pochutla #RoadTripOaxaca #ViajerosEnAuto #MotociclistasOaxaca #HotelPosadaSanJose #EstacionamientoSeguro #CostaDeOaxaca
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 5: ALBERCA -->
+    <div id="modal-alberca" class="fixed inset-0 bg-warm-900/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl border border-warm-200 max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-6 shadow-2xl relative">
+            <button onclick="closeModal('modal-alberca')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-warm-100 text-warm-900 flex items-center justify-center hover:bg-warm-200 font-bold">✕</button>
+            
+            <div class="space-y-1">
+                <span class="text-xs font-bold text-warm-600 uppercase">Publicación Orgánica / Pauta</span>
+                <h3 class="text-xl font-serif font-bold text-warm-900">Alberca y Descanso en la Ciudad</h3>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Copy In-Image / Video</span>
+                    <button onclick="copyText('copy-video-5', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-video-5" class="text-xs text-warm-800 space-y-2 font-mono pt-1">
+• ¿Mucho calor en Pochutla?
+• Refresca tu día en nuestra alberca exterior.
+• Un oasis de tranquilidad en el centro de la ciudad.
+• Ideal para relajarte solo, en pareja o con amigos.
+• ¡Te esperamos en Hotel Posada San José!
+                </div>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Caption + CTA + Hashtags</span>
+                    <button onclick="copyText('copy-caption-5', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-caption-5" class="text-xs text-warm-800 whitespace-pre-line font-sans pt-1">
+¡El calor de la Costa se disfruta mejor en el agua! 🏊‍♂️☀️🌴
+
+En Hotel Posada San José contamos con una alberca limpia y refrescante lista para ti. Ya sea después de trabajar o tras recorrer las playas, date el descanso que mereces.
+
+🌴 Ambiente tranquilo y relajado
+📶 Wi-Fi rápido en áreas comunes
+🍹 Camastros para descansar al sol
+
+📲 Reserva tu habitación o consulta pases diarios al WhatsApp: 958 142 0618
+
+#HotelPosadaSanJose #Pochutla #AlbercaPochutla #Oaxaca #RelaxOaxaca #HotelesConAlberca #CostaDeOaxaca
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 6: BASE PLAYAS -->
+    <div id="modal-playas" class="fixed inset-0 bg-warm-900/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl border border-warm-200 max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-6 shadow-2xl relative">
+            <button onclick="closeModal('modal-playas')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-warm-100 text-warm-900 flex items-center justify-center hover:bg-warm-200 font-bold">✕</button>
+            
+            <div class="space-y-1">
+                <span class="text-xs font-bold text-warm-600 uppercase">Video Publicitado #4</span>
+                <h3 class="text-xl font-serif font-bold text-warm-900">Tu Base Estratégica hacia las Playas</h3>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Copy In-Image / Video</span>
+                    <button onclick="copyText('copy-video-6', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-video-6" class="text-xs text-warm-800 space-y-2 font-mono pt-1">
+• ¿Quieres conocer Mazunte, Zipolite y Huatulco sin pagar de más?
+• Hospédate en Pochutla al mejor precio.
+• A minutos del transporte hacia todas las playas.
+• Ahorra en tu hospedaje y gástalo disfrutando.
+• Reserva hoy mismo en Hotel Posada San José.
+                </div>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Caption + CTA + Hashtags</span>
+                    <button onclick="copyText('copy-caption-6', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-caption-6" class="text-xs text-warm-800 whitespace-pre-line font-sans pt-1">
+El truco para recorrer la Costa de Oaxaca pagando lo justo 🌊📍
+
+San Pedro Pochutla es el corazón del transporte hacia las mejores playas: Zipolite, Mazunte, Puerto Ángel y San Agustinillo. 
+
+En Hotel Posada San José duermes cómodo con A/A, alberca y estacionamiento por una fracción del costo de la zona playera. 🚗🚌
+
+💰 Tarifas desde $600 MXN por noche
+📲 Haz tu reservación directa por WhatsApp: 958 142 0618
+
+#Pochutla #Mazunte #Zipolite #PuertoAngel #OaxacaTravel #MochilerosMexico #HotelPosadaSanJose #HotelesOaxaca
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 7: RENTA MENSUAL -->
+    <div id="modal-renta-mensual" class="fixed inset-0 bg-warm-900/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl border border-warm-200 max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-6 shadow-2xl relative">
+            <button onclick="closeModal('modal-renta-mensual')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-warm-100 text-warm-900 flex items-center justify-center hover:bg-warm-200 font-bold">✕</button>
+            
+            <div class="space-y-1">
+                <span class="text-xs font-bold text-warm-600 uppercase">Orgánico / Pauta Local</span>
+                <h3 class="text-xl font-serif font-bold text-warm-900">Planes de Renta Mensual</h3>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Copy In-Image / Video</span>
+                    <button onclick="copyText('copy-video-7', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-video-7" class="text-xs text-warm-800 space-y-2 font-mono pt-1">
+• ¿Buscas habitación por mes en Pochutla?
+• Renta mensual con todos los servicios incluidos.
+• Habitación con Ventilador: $3,800 MXN/mes.
+• Habitación con A/A: $4,800 MXN/mes.
+• Incluye alberca, Wi-Fi y estacionamiento.
+                </div>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Caption + CTA + Hashtags</span>
+                    <button onclick="copyText('copy-caption-7', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-caption-7" class="text-xs text-warm-800 whitespace-pre-line font-sans pt-1">
+¿Trabajas o vives por temporada en Pochutla? Olvídate de pagar depósitos caros y contratos complicados 📋✨
+
+En Hotel Posada San José te ofrecemos paquetes de RENTA MENSUAL con todo listo para habitar:
+✨ Ventilador: $3,800 MXN / mes
+✨ Aire Acondicionado: $4,800 MXN / mes
+
+Incluye agua, Wi-Fi, uso de alberca, estacionamiento privado y limpieza.
+
+📲 Consulta disponibilidad e informes vía WhatsApp: 958 142 0618
+
+#Pochutla #RentaPochutla #DepasPochutla #HotelPosadaSanJose #HabitacionesPochutla #OaxacaTrabajo #EstanciaLarga
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 8: RECEPCIÓN 24 HORAS -->
+    <div id="modal-recepcion" class="fixed inset-0 bg-warm-900/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl border border-warm-200 max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-6 shadow-2xl relative">
+            <button onclick="closeModal('modal-recepcion')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-warm-100 text-warm-900 flex items-center justify-center hover:bg-warm-200 font-bold">✕</button>
+            
+            <div class="space-y-1">
+                <span class="text-xs font-bold text-warm-600 uppercase">Publicación Orgánica</span>
+                <h3 class="text-xl font-serif font-bold text-warm-900">Llegadas Nocturnas & Recepción 24/7</h3>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Copy In-Image / Video</span>
+                    <button onclick="copyText('copy-video-8', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-video-8" class="text-xs text-warm-800 space-y-2 font-mono pt-1">
+• ¿Tu autobús llega de noche o madrugada?
+• En Hotel Posada San José te recibimos a la hora que sea.
+• Recepción disponible las 24 horas.
+• Check-in rápido y seguro.
+• Tu descanso garantizado sin importar la hora.
+                </div>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Caption + CTA + Hashtags</span>
+                    <button onclick="copyText('copy-caption-8', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-caption-8" class="text-xs text-warm-800 whitespace-pre-line font-sans pt-1">
+No importa la hora a la que llegues a Pochutla, ¡siempre habrá alguien listo para atenderte! 🌙🔑
+
+Sabemos que las corridas de autobuses a veces llegan tarde o muy temprano. En Hotel Posada San José contamos con Recepción 24 Horas para que no pases malos ratos buscando dónde hospedarte.
+
+🛌 Habitación lista y climatizada
+🚗 Estacionamiento con portón seguro
+📍 A pasos de las terminales principales
+
+📲 Avisa tu llegada o reserva de antemano vía WhatsApp: 958 142 0618
+
+#HotelPosadaSanJose #Pochutla #ViajesNocturnos #MochilerosMexico #TerminalPochutla #Oaxaca #ViajerosEnRuta
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 9: GASTRONOMÍA LOCAL -->
+    <div id="modal-gastronomia" class="fixed inset-0 bg-warm-900/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl border border-warm-200 max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-6 shadow-2xl relative">
+            <button onclick="closeModal('modal-gastronomia')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-warm-100 text-warm-900 flex items-center justify-center hover:bg-warm-200 font-bold">✕</button>
+            
+            <div class="space-y-1">
+                <span class="text-xs font-bold text-warm-600 uppercase">Publicación Orgánica</span>
+                <h3 class="text-xl font-serif font-bold text-warm-900">Gastronomía y Sabores de Pochutla</h3>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Copy In-Image / Video</span>
+                    <button onclick="copyText('copy-video-9', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-video-9" class="text-xs text-warm-800 space-y-2 font-mono pt-1">
+• ¿Qué comer durante tu visita a Pochutla?
+• Tlayudas, mariscos frescos y café de la sierra.
+• A pocos pasos de Hotel Posada San José.
+• Te recomendamos los mejores rincones locales.
+• Hospédate cerca de todo.
+                </div>
+            </div>
+
+            <div class="bg-warm-50 p-4 rounded-2xl border border-warm-200 space-y-2 relative">
+                <div class="flex justify-between items-center border-b border-warm-200 pb-2">
+                    <span class="text-xs font-bold text-warm-900 uppercase">Caption + CTA + Hashtags</span>
+                    <button onclick="copyText('copy-caption-9', this)" class="bg-white border border-warm-200 text-warm-900 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-warm-100 transition flex items-center gap-1.5">
+                        <i class="fa-regular fa-copy"></i> <span>Copiar</span>
+                    </button>
+                </div>
+                <div id="copy-caption-9" class="text-xs text-warm-800 whitespace-pre-line font-sans pt-1">
+¡El auténtico sabor de Oaxaca te espera en Pochutla! 🍽️🥑
+
+Si te hospedas en Hotel Posada San José, no solo disfrutas de alberca y buen descanso, sino también de la mejor ubicación para degustar la gastronomía local: tlayudas, empanadas de mole, agua de chilacayote y mariscos frescos.
+
+Al hacer tu check-in, ¡pregúntale a nuestro equipo por sus lugares preferidos para comer! 🤤✨
+
+📲 Reserva tu habitación directo por WhatsApp: 958 142 0618
+
+#ComidaOaxaqueña #Pochutla #GastronomiaOaxaca #HotelPosadaSanJose #SaborOaxaqueño #CostaDeOaxaca #TurismoOaxaca
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-warm-900 text-warm-200 text-xs py-8 px-4 text-center mt-12">
+        <div class="max-w-6xl mx-auto space-y-2">
+            <p>Hotel Posada San José &copy; 2026 — Estrategia de Contenidos y Meta Ads.</p>
+            <p class="text-warm-600">San Pedro Pochutla, Oaxaca, México.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Función para abrir modales
+        function openModal(id) {
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        // Función para cerrar modales
+        function closeModal(id) {
+            document.getElementById(id).classList.add('hidden');
+        }
+
+        // Función para copiar texto al portapapeles
+        function copyText(elementId, buttonEl) {
+            const textToCopy = document.getElementById(elementId).innerText;
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                const originalHtml = buttonEl.innerHTML;
+                buttonEl.innerHTML = '<i class="fa-solid fa-check text-green-600"></i> <span class="text-green-600">¡Copiado!</span>';
+                setTimeout(() => {
+                    buttonEl.innerHTML = originalHtml;
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
